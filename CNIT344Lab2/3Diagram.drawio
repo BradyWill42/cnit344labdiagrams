@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="vCJ1SuQY2YfiyzVbhze-">
-    <mxGraphModel dx="1272" dy="918" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1510" dy="1059" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,6 +273,57 @@
         </mxCell>
         <mxCell id="ZiVLXB9md4UKHXkuWraJ-76" value="VYOS Wireless Router&lt;div&gt;176.16.45.1&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1105" width="178" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-78" value="" style="endArrow=none;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZiVLXB9md4UKHXkuWraJ-76" target="ZiVLXB9md4UKHXkuWraJ-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="293" y="1183" as="sourcePoint" />
+            <mxPoint x="343" y="1133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-79" value="VYOS DHCP Server&lt;div&gt;176.16.45.100&amp;nbsp;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;&lt;div&gt;176.16.45.200&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="1114" width="181" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-80" value="" style="endArrow=none;html=1;rounded=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZiVLXB9md4UKHXkuWraJ-76" target="ZiVLXB9md4UKHXkuWraJ-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="293" y="1210" as="sourcePoint" />
+            <mxPoint x="343" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-82" value="C344G45S2&lt;div&gt;&lt;div&gt;10.1.45.3&lt;/div&gt;&lt;div&gt;10.2.45.3&lt;/div&gt;&lt;div&gt;10.3.45.3&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-141" y="1376" width="191" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-83" value="C344G45S1&lt;div&gt;10.1.45.2&lt;/div&gt;&lt;div&gt;10.2.45.2&lt;/div&gt;&lt;div&gt;10.3.45.2&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="1274" width="159" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-84" value="C344G45S3&lt;div&gt;&lt;div&gt;10.1.45.4&lt;/div&gt;&lt;div&gt;10.2.45.4&lt;/div&gt;&lt;div&gt;10.3.45.4&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="558" y="1401" width="191" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-85" value="" style="endArrow=none;html=1;rounded=0;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZiVLXB9md4UKHXkuWraJ-82" target="ZiVLXB9md4UKHXkuWraJ-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="1282" as="sourcePoint" />
+            <mxPoint x="245" y="1232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-86" value="" style="endArrow=none;html=1;rounded=0;entryX=0.514;entryY=0.949;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZiVLXB9md4UKHXkuWraJ-83" target="ZiVLXB9md4UKHXkuWraJ-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="1282" as="sourcePoint" />
+            <mxPoint x="245" y="1232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-87" value="" style="endArrow=none;html=1;rounded=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZiVLXB9md4UKHXkuWraJ-83" target="ZiVLXB9md4UKHXkuWraJ-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="1282" as="sourcePoint" />
+            <mxPoint x="245" y="1232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-89" value="VYOS is also hosting 3 VLAN DHCP servers over ethernet for the following subnets&lt;div&gt;10.1.45.0/24&lt;/div&gt;&lt;div&gt;10.2.45.0/24&lt;/div&gt;&lt;div&gt;10.3.45.0/24&lt;/div&gt;&lt;div&gt;where usable addresses on each server are between *.*.*.100 and *.*.*.200&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect" vertex="1" parent="1">
+          <mxGeometry x="-184" y="1095" width="287" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiVLXB9md4UKHXkuWraJ-94" value="" style="endArrow=none;html=1;rounded=0;exitX=0.984;exitY=0.513;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZiVLXB9md4UKHXkuWraJ-89" target="ZiVLXB9md4UKHXkuWraJ-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" y="1208" as="sourcePoint" />
+            <mxPoint x="191" y="1158" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
